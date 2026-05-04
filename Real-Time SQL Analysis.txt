@@ -17,7 +17,8 @@
 --FROM cleaned_sales_final
 --GROUP BY product_name
 --ORDER BY revenue DESC
---LIMIT 10;
+--LIMIT 5;
+
 
 -- Sales By Region
 
@@ -25,6 +26,7 @@
 --FROM cleaned_sales_final
 --GROUP BY region
 --ORDER BY total_sales DESC;
+
 
 -- Sales By Category 
 
@@ -48,6 +50,43 @@
 --GROUP BY customer_name
 --ORDER BY total_spent DESC
 --LIMIT 5;
+
+-- High Value Orders
+
+--SELECT *
+--FROM cleaned_sales_final
+--WHERE sales > 500;
+
+-- Window Function
+--SELECT 
+--   product_name,
+--    SUM(sales) AS revenue,
+--    RANK() OVER (ORDER BY SUM(sales) DESC) AS rank
+--FROM cleaned_sales_final
+--GROUP BY product_name;
+
+--CREATE TABLE region_targets (
+--    region TEXT,
+--    manager INTEGER
+--);
+
+--INSERT INTO region_targets VALUES
+--('East', 'John'),
+--('West', 'Alice'),
+--('South', 'David'),
+--('North', 'Emma');
+
+--SELECT * FROM region_targets;
+
+SELECT 
+   l.region,
+   r.manager,
+   SUM(l.sales)
+FROM cleaned_sales_final l
+JOIN region_targets r
+ON l.region = r.region
+GROUP BY l.region, r.manager;
+
 
 -- High Value Orders
 
