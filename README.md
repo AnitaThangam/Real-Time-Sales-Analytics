@@ -60,6 +60,9 @@ LIMIT 5;
 - Best Region:
 - <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/b7dd482c-5408-484e-9f3b-64cb4a98b699" />
 
+- Ranking Products
+- <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/30c28ca6-ffb3-480f-ade6-8f1c5334770b" />
+
 
 **Dashboard Preview**
 
