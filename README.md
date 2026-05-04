@@ -51,11 +51,15 @@ ORDER BY revenue DESC
 LIMIT 5;
 
 **Results**
-- Total Sales: 2252607.4127 
-- Top Product:
-- <img width="730" height="571" alt="image" src="https://github.com/user-attachments/assets/aed24564-b958-4299-a15f-d97f6d3ed451" />
+- Total Sales:
+- <img width="397" height="230" alt="image" src="https://github.com/user-attachments/assets/158ed072-2faf-4a59-8d40-c7854e184ddc" />
 
-- Best Region: XXXXX  
+- Top Product:
+- <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/aed24564-b958-4299-a15f-d97f6d3ed451" />
+
+- Best Region:
+- <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/b7dd482c-5408-484e-9f3b-64cb4a98b699" />
+
 
 **Key Insights**
 
