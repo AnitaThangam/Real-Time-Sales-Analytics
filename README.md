@@ -60,7 +60,7 @@ High-value customers significantly impact total revenue
 **How to Run**
 
 1. Clone the repository
-git clone https://github.com/your-username/real-time-sales-analytics.git
+git clone https://github.com/AnitaThangam/Real-Time-Sales-Analytics.git
 
 2. Install dependencies
 pip install pandas
