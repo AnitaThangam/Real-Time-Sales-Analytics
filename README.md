@@ -50,6 +50,13 @@ GROUP BY product_name
 ORDER BY revenue DESC
 LIMIT 5;
 
+**Results**
+- Total Sales: 2252607.4127 
+- Top Product:
+- <img width="730" height="571" alt="image" src="https://github.com/user-attachments/assets/aed24564-b958-4299-a15f-d97f6d3ed451" />
+
+- Best Region: XXXXX  
+
 **Key Insights**
 
 A small set of products contributes to the majority of revenue
