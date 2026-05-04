@@ -1,0 +1,56 @@
+-- Preview Data
+
+--SELECT * 
+--FROM cleaned_sales_final
+--LIMIT 10;
+
+---- KPI ANALYSIS
+
+-- Total Sales
+
+--SELECT SUM(sales) AS total_sales
+--FROM cleaned_sales_final;
+
+-- Top 10 Products 
+
+--SELECT product_name, SUM(sales) AS revenue
+--FROM cleaned_sales_final
+--GROUP BY product_name
+--ORDER BY revenue DESC
+--LIMIT 10;
+
+-- Sales By Region
+
+--SELECT region, SUM(sales) AS total_sales
+--FROM cleaned_sales_final
+--GROUP BY region
+--ORDER BY total_sales DESC;
+
+-- Sales By Category 
+
+--SELECT category, SUM(sales) AS total_sales
+--FROM cleaned_sales_final
+--GROUP BY category
+
+-- Monthly Sales Trend 
+
+--SELECT 
+--    strftime('%m', order_date) AS month,
+--    SUM(sales) AS monthly_sales
+--FROM cleaned_sales_final
+--GROUP BY month
+--ORDER BY month;
+
+-- Top Customers 
+
+--SELECT customer_name, SUM(sales) AS total_spent
+--FROM cleaned_sales_final
+--GROUP BY customer_name
+--ORDER BY total_spent DESC
+--LIMIT 5;
+
+-- High Value Orders
+
+--SELECT *
+--FROM cleaned_sales_final
+--WHERE sales > 500;
