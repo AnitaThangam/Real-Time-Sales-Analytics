@@ -61,6 +61,16 @@ LIMIT 5;
 - <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/b7dd482c-5408-484e-9f3b-64cb4a98b699" />
 
 
+**Dashboard Preview**
+
+<img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/69b0ad39-cea0-4efa-a472-35ac82b77b58" />
+
+Example:
+op 5 products contribute majority of revenue
+West region shows highest sales performance
+Sales trend indicates seasonal variation
+Customer concentration observed among top buyers
+
 **Key Insights**
 
 A small set of products contributes to the majority of revenue
@@ -94,3 +104,4 @@ Improved business decision-making using data
 **Business Impact**
 
 This project demonstrates how organizations can leverage real-time analytics to monitor performance, identify trends, and make faster data-driven decisions.
+Real-time behavior is simulated using batch data streaming in Python.
