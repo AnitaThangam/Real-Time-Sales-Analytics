@@ -66,10 +66,10 @@ LIMIT 5;
 <img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/69b0ad39-cea0-4efa-a472-35ac82b77b58" />
 
 Example:
-op 5 products contribute majority of revenue
-West region shows highest sales performance
-Sales trend indicates seasonal variation
-Customer concentration observed among top buyers
+1. Top 5 products contribute majority of revenue
+2. West region shows highest sales performance
+3. Sales trend indicates seasonal variation
+4. Customer concentration observed among top buyers
 
 **Key Insights**
 
