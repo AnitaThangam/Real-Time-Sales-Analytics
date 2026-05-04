@@ -61,7 +61,11 @@ LIMIT 5;
 - <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/b7dd482c-5408-484e-9f3b-64cb4a98b699" />
 
 - Ranking Products
+- I used window function to rank top-performing products based on revenue
 - <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/30c28ca6-ffb3-480f-ade6-8f1c5334770b" />
+
+-I used JOIN to combine sales data with region-level information to get more business context.
+-<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/961d7bc1-1858-4b28-bbbb-36c3f15dd25a" />
 
 
 **Dashboard Preview**
